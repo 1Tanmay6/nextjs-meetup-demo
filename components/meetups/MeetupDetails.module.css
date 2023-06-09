@@ -1,0 +1,14 @@
+.detail {
+  text-align: center;
+}
+
+.detail img {
+  width: 100%;
+}
+.detail p {
+  margin-top: 1rem;
+}
+
+.detail h1 {
+  margin-bottom: 1rem;
+}
