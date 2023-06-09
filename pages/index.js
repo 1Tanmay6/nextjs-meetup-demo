@@ -15,7 +15,7 @@ const HomePage = (props) => {
           content="Browse a huge list of highly active React meetups!"
         />
       </Head>
-      <MeetUpList meetups={props.meetups} />;
+      <MeetUpList meetups={props.meetups} />
     </>
   );
 };
@@ -46,7 +46,7 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 10,
+    revalidate: 1,
   };
 }
 
